@@ -4,6 +4,7 @@
   
 int main(int argc, char **argv) 
 { 
+    setuid(0);
     char buffer[256];
     gets(buffer); 
     return 0; 
